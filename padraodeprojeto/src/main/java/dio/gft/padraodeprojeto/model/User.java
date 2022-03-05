@@ -25,7 +25,7 @@ public class User {
     @ManyToOne
     private Address address;
 
-    //@CPF@CNPJ
+    @CPF@CNPJ
     @Column(nullable = false, unique = true)
     private String document;
 
